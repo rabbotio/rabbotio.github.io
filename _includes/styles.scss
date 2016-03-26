@@ -2,6 +2,7 @@
 @import 'syntax-highlighting';
 
 $grey-color:       #828282;
+$main-color:       #455A64;
 
 .icon {
 
@@ -41,6 +42,13 @@ main {
   display: block;
 }
 
+html {
+  background-image: -webkit-linear-gradient(bottom, #FFFFFF, rgba(69, 90, 100, 0.382));
+  background-image: -o-linear-gradient(bottom, #FFFFFF, rgba(69, 90, 100, 0.382));
+  background-image: linear-gradient(to top, #FFFFFF, rgba(69, 90, 100, 0.382));
+  background-repeat: no-repeat;
+}
+
 body {
   font-family: $font-sans;
   margin: 0;
@@ -73,11 +81,11 @@ body {
       font-style: normal;
       font-size: 18px;
       line-height: 30px;
-      color: #666666;
+      color: #999;
       
       a {
         text-decoration: none;
-        color: #455A64;
+        color: $main-color;
         &:hover {
           color: #333333;
         }

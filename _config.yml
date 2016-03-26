@@ -37,3 +37,9 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
+  - webpack.config.js
+  - webpack.hot.config.js
+  - npm-debug.log
+  - Procfile
+  - Procfile.dev
+  - node_modules

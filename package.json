@@ -1,0 +1,24 @@
+{
+  "name": "rabbots.github.io",
+  "version": "1.0.0",
+  "description": "Underconstruction :)",
+  "scripts": {
+    "local": "opener http://localhost:4000/",
+    "start": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build --safe",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabbots/rabbots.github.io.git"
+  },
+  "keywords": [
+    "rabbot"
+  ],
+  "author": "katopz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rabbots/rabbots.github.io/issues"
+  },
+  "homepage": "https://rabbots.github.com/"
+}
