@@ -13,8 +13,9 @@ description: >
 favicon: "/favicon.ico"
 logo: "assets/images/rabbot-320x320.png"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://rabbot.io" # the base hostname & protocol for your site
+url: "https://rabbot.io" # the base hostname & protocol for your site
 paginate:	1 # The number of posts to show per page on your homepage
+paginate_path: "/blog/page:num"
 
 name: 'katopz'
 bio: >

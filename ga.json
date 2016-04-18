@@ -1,0 +1,14 @@
+{
+  "vars": {
+    "account": "UA-76345063-1"
+  },
+  "triggers": {
+    "defaultPageview": {
+      "on": "visible",
+      "request": "pageview",
+      "vars": {
+        "title": "Landing"
+      }
+    }
+  }
+}
