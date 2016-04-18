@@ -44,3 +44,5 @@ exclude:
   - Procfile
   - Procfile.dev
   - node_modules
+  - glupfile.js
+  - package.json
